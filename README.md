@@ -1,4 +1,4 @@
-# GaussianStego: Embedding Invisible Information within Generative 3D Gaussian Splattings
+# GaussianStego: A Generalizable Stenography Pipeline for Generative 3D Gaussians Splatting
 
 This is the repository that contains source code for the [gaussian-stego website](https://gaussian-stego.github.io/).
 
