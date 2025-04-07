@@ -58,7 +58,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-3 publication-title"><span class="gradient-text">GaussianStego</span>: A Generalizable Stenography Pipeline <br> for Generative 3D Gaussians Splatting</h1>
+          <h1 class="title is-3 publication-title"><span class="gradient-text">InstantSplamp</span>: Fast and Generalizable Stenography Framework for Generative Gaussian Splatting</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://xggnet.github.io/">Chenxin Li</a><sup>1†</sup>,</span>
@@ -106,7 +106,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/CUHK-AIM-Group/GaussianStego"
+                <a href="https://github.com/CUHK-AIM-Group/InstantSplamp"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -149,7 +149,7 @@
             exist for conventional visual content such as images and videos, this issue remains unexplored for emerging generative 3D formats like Gaussian Splatting.
           </p>
           <p>
-            We present GaussianStego, a method for embedding steganographic information in the rendering of generated 3D assets.
+            We present InstantSplamp, a method for embedding steganographic information in the rendering of generated 3D assets.
             Our approach employs an optimization framework that enables the accurate extraction of hidden information from images rendered using Gaussian assets derived from large models, while maintaining their original visual quality. 
           </p>
           <p>
@@ -176,7 +176,7 @@
 
         <div class="content has-text-justified">
           <p>
-            <strong>Overview of GaussianStego:</strong>
+            <strong>Overview of InstantSplamp:</strong>
             During (a) Hidden Information Embedding, GaussianStego incorporates the DINOv2 features of the hidden information into the intermediate feature of Gaussian generation via cross-attention. 
             In (b) Hidden Information Recovery, a U-Net-based decoder is employed to retrieve the hidden information from the rendered image under the checking pose. 
             Through the optimization process, (c) Adaptive Gradient Harmonization is utilized to maintain a balance between the rendering and hidden recovery.
@@ -210,12 +210,12 @@
   <div class="container is-max-desktop content">
     <h2 class="title" id="bib">BibTeX</h2>
     <hr style="margin-top:0px">
-    <pre><code>@article{li2024gaussianstego,
-      title={GaussianStego: A Generalizable Stenography Pipeline for Generative 3D Gaussians Splatting},
-      author={Li, Chenxin and Liu, Hengyu and Fan, Zhiwen and Li, Wuyang and Liu, Yifan and Pan, Panwang and Yuan, Yixuan},
-      journal={arXiv preprint arXiv:2407.01301},
-      year={2024}
-    }</code></pre>
+    <pre><code>@inproceedings{li2025instantsplamp,
+  title={InstantSplamp: Fast and Generalizable Stenography Framework for Generative Gaussian Splatting},
+  author={Li, Chenxin and Liu, Hengyu and Fan, Zhiwen and Li, Wuyang and Liu, Yifan and Pan, Panwang and Yuan, Yixuan},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025}
+}</code></pre>
   </div>
 </section>
 
