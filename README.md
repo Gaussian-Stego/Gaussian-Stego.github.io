@@ -1,14 +1,14 @@
-# GaussianStego: A Generalizable Stenography Pipeline for Generative 3D Gaussians Splatting
+# InstantSplamp: Fast and Generalizable Stenography Framework for Generative Gaussian Splatting
 
-This is the repository that contains source code for the [gaussian-stego website](https://gaussian-stego.github.io/).
+This is the repository that contains the source code for the [InstantSplamp website](https://gaussian-stego.github.io/).
 
 If you find gaussian-stego useful for your work please cite:
 ```
-@article{li2024gaussianstego,
-  author    = {Chenxin Li and Hengyu Liu and Zhiwen Fan and Wuyang Li and Yifan Liu and Panwang Pan and Yixuan Yuan},
-  title     = {GaussianStego: Embedding Invisible Information within Generative 3D Gaussian Splattings},
-  journal   = {arXiv preprint},
-  year      = {2024},
+@inproceedings{li2025instantsplamp,
+  title={InstantSplamp: Fast and Generalizable Stenography Framework for Generative Gaussian Splatting},
+  author={Li, Chenxin and Liu, Hengyu and Fan, Zhiwen and Li, Wuyang and Liu, Yifan and Pan, Panwang and Yuan, Yixuan},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025}
 }
 ```
 
